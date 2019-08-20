@@ -9,7 +9,7 @@ int main()
 		if (i % 2)
 			fprintf(stdout, "%s\n", word);
 		else
-			fprintf(stderr, "%a\n", word);
+			fprintf(stderr, "%s\n", word);
 	}
 	return 0;
 }
